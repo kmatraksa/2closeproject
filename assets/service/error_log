@@ -1,0 +1,54 @@
+[31-Jan-2018 02:20:25 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Color : Orange  Size : 7.5 (26cm)  Condition : 90% (With box&tag)  พื้' at line 1' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(42): getpdo(Object(PDO), 'INSERT INTO `pr...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
+[31-Jan-2018 02:20:37 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Color : Orange  Size : 7.5 (26cm)  Condition : 90% (With box&tag)','17500','0'' at line 1' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(42): getpdo(Object(PDO), 'INSERT INTO `pr...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
+[31-Jan-2018 02:20:44 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Color : Orange  Size : 7.5 (26cm)  Condition : 90%','17500','0','on','ขอ' at line 1' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(42): getpdo(Object(PDO), 'INSERT INTO `pr...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
+[31-Jan-2018 02:20:54 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Color : Orange  Size : 7.5 (26cm)  Condition : 90%','17500','0','on','ขอ' at line 1' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(42): getpdo(Object(PDO), 'INSERT INTO `pr...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
+[31-Jan-2018 02:20:55 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Color : Orange  Size : 7.5 (26cm)  Condition : 90%','17500','0','on','ขอ' at line 1' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(42): getpdo(Object(PDO), 'INSERT INTO `pr...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
+[31-Jan-2018 02:21:02 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Color : Orange  Size : 7.5 (26cm)','17500','0','on','ของใหม่',''' at line 1' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(42): getpdo(Object(PDO), 'INSERT INTO `pr...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
+[31-Jan-2018 02:21:12 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Color : Orange  Size : 7.5 (26cm)','17500','0','on','ของใหม่',''' at line 1' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(42): getpdo(Object(PDO), 'INSERT INTO `pr...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
+[31-Jan-2018 02:22:10 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Color : Orange  Size : 7.5 (26cm)  Condition : 90% (With box&tag)พื้น' at line 1' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(42): getpdo(Object(PDO), 'INSERT INTO `pr...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
+[31-Jan-2018 02:38:35 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`cp242224_2closeTest2`.`order_detail`, CONSTRAINT `FK_order_account` FOREIGN KEY (`account_id`) REFERENCES `account` (`account_id`))' in /home/cp242224/public_html/project/assets/service/PDO.php:44
+Stack trace:
+#0 /home/cp242224/public_html/project/assets/service/PDO.php(44): PDOStatement->execute()
+#1 /home/cp242224/public_html/project/assets/service/service.php(233): getpdo(Object(PDO), 'INSERT INTO `or...')
+#2 {main}
+  thrown in /home/cp242224/public_html/project/assets/service/PDO.php on line 44
