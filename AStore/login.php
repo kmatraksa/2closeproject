@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LuxorFabric</title>
+    <title>Admin</title>
     <link rel="icon" type="image/png" href="../images/logo.png" />
     <!-- Bootstrap -->
     <link href="./vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,14 +49,14 @@
 
               <div class="separator">
                 <p class="change_link">
-                    สำหรับร้านค้าที่เป็นส่วนหนึ่งกับทางร้าน LuxorFabric
+                    Adminstore
                 </p>
 
                 <div class="clearfix"></div>
                 <br/>
                 <div>
                   <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                  <p>©2018 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
                 </div>
               </div>
             </form>
@@ -71,7 +71,7 @@
             $user = mysqli_escape_string($connect,$_POST['userstorenameemail']);
             $pass = mysqli_escape_string($connect,$_POST['userstorepassword']);
 
-            echo $select = "SELECT * FROM `store` WHERE `EmailStore` = '$user' AND `Password` = md5('$pass');";
+            echo $select = "SELECT * FROM `account` WHERE `account_username` = '$user' AND `account_password` = md5('$pass');";
 
             if($query = mysqli_query($connect,$select)){
               $row = mysqli_fetch_array($query);
