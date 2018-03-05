@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LuxorFabric</title>
+    <title>Admin</title>
     <link rel="icon" type="image/png" href="../images/logo.png" />
     <!-- Bootstrap -->
     <link href="./vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
 
               <div class="separator">
                 <p class="change_link">
-                    สำหรับร้านค้าที่เป็นส่วนหนึ่งกับทางร้าน LuxorFabric
+                    สำหรับร้านค้าที่เป็นส่วนหนึ่งกับทางร้าน Admin
                 </p>
 
                 <div class="clearfix"></div>
