@@ -8,7 +8,7 @@
                                 <th>Totalprice</th>
                                 <th>Status</th>
                                 <th>ข้อมูลเชิงลึก</th>
-                                <th>Shipping</th>
+                                <th>สถานะการชำระ</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -45,7 +45,7 @@
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                <h4 class="modal-title" id="myModalLabel">Shipping</h4>
+                                                <h4 class="modal-title" id="myModalLabel">รายการชำระ</h4>
                                             </div>
                                             <div class="modal-body">
                                                 <h2 class="text-center">จัดการจัดส่งรายการที่ <?php echo $row['id_order']; ?></h2>
@@ -53,7 +53,7 @@
                                                 &nbsp
                                                 <form class="form-horizontal" method="post" enctype="multipart/form-data">
                                                     <div class="form-group">
-                                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">รหัสออเดอร์</label>
+                                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">รหัสออเดอร์</label> 
                                                         <div class="col-md-9 col-sm-9 col-xs-12">
                                                             <p><?php echo $row['id_order']; ?></p>
                                                         </div>
