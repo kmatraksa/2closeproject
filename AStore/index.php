@@ -65,7 +65,7 @@
                     }
                     else if(!empty($_GET['link']) && $_GET['link'] == "listproduct"){
                         include "./tableListproduct.php";
-                    }else if(!empty($_GET['link']) && $_GET['link'] == "editproduct" && !empty($_GET['idproduct'])){
+                    }else if(!empty($_GET['link']) && $_GET['link'] == "editproduct" ){
                         include "./Editproduct.php";
                     }
                     else{ 
