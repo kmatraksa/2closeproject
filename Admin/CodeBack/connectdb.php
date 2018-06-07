@@ -3,9 +3,9 @@
     $host = "localhost";
     // $user = "root";
     // $pass = "";
-    $user = "h514771_birdfire";
-    $pass = "BirdFire45";
-    $db = "h514771_birdfire";
+    $user = "root";
+    $pass = "";
+    $db = "project";
 
     $connect = mysqli_connect($host,$user,$pass,$db);
     $connect ->query("set names utf8");
